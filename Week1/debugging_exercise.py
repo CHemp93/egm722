@@ -15,4 +15,5 @@ while guess != rand:  # if the guess is not equal to the random number, you have
     print('Enter a new guess: ')
     guess = int(input())
 
+
 print('You got it! The number was {}'.format(rand))
